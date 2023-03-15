@@ -64,11 +64,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -87,7 +82,6 @@ Clone this repository to your desired folder:
 ```bash
   git@github.com:ivanmvh/OOP-school-library-ivanmvh.git
 ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Install
@@ -111,9 +105,6 @@ You can deploy this project using:
 [Render] (https://render.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Ivan Martinez**
@@ -123,16 +114,20 @@ You can deploy this project using:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivan-martinez-von-halle/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
+- This correspond to Project 1: add Person, Student, and Teacher classes.
+
+In the next future we will develop:
+
+- Project 2: use the "Decorator" design pattern.
+- Project 3: set up associations.
+- Project 4: add basic UI.
+- Project 5: refactor your code.
+- Project 6: preserve data.
+- Project 7: unit tests.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -140,26 +135,20 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/ivanmvh/OOP-school-library-ivanmvh/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - My Family.
 - [Microverse Team and classmates](https://www.microverse.org/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FAQ (optional) -->
-
 ## ❓ FAQ <a name="faq"></a>
 
 - **Are you using database?**
