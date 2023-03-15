@@ -14,4 +14,3 @@ class Student < Person
   # getter
   attr_accessor :classroom
 end
-
