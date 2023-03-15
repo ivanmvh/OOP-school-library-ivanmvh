@@ -15,10 +15,3 @@ class Student < Person
   attr_accessor :classroom
 end
 
-=begin
-# test
-ivan = Student.new(73, "Ivan Martinez",true)
-puts ivan.age
-puts ivan.name
-ivan.parent_permission
-=end

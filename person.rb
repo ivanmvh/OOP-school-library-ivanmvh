@@ -23,11 +23,3 @@ class Person
     @age >= 18
   end
 end
-
-=begin
-# test
-ivan = Person.new(73, "Ivan Martinez",true)
-puts ivan.age
-puts ivan.name
-ivan.parent_permission
-=end
