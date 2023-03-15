@@ -80,14 +80,6 @@ In order to run this project you need:
 - Install Git in your computer [Git](https://git-scm.com/downloads)
 - Any text editor [VSCode](https://code.visualstudio.com/download) recomended
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -100,9 +92,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
-
-run in your terminal the command: bundle install
+Run in your terminal the command: bundle install
 
 ### Usage
 
@@ -112,8 +102,7 @@ exeecute the command: ruby main.rb
 
 ### Run tests
 
-To run tests, run the following command:
-
+To run tests, run the following command: 
 
 ### Deployment
 
@@ -139,7 +128,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[TBD]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
