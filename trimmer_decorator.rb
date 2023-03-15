@@ -5,7 +5,7 @@ class TrimmerDecorator < Decorator
     if @nameable.correct_name.length > 10
       @nameable.correct_name[0..9].to_s
     else
-      @nameable.to_s      
+      @nameable.to_s
     end
   end
 end
