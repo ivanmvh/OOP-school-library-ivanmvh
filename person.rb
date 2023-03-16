@@ -9,7 +9,7 @@ class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age, :parent_permission, :rentals
 
-  def initialize(age, name = "Unknown", parent_permission = true)
+  def initialize(age, name = 'Unknown', parent_permission: true)
     super()
     @id = Random.rand(1..2000)
     @name = name
@@ -40,16 +40,16 @@ class Person < Nameable
 end
 
 # test
-if 1 == 1
-  # Sentences to see the code in action
-  p "---- inicio person.rb ----------------------"
-  person = Person.new(22, 'maximilianus', true)
-  p "correct_name: #{person.correct_name}"
-  p "age: #{person.age}"
-  p "parent_permission: #{person.parent_permission}"
-  capitalizedperson = CapitalizeDecorator.new(person)
-  p "capitalizedperson.correct_name: #{capitalizedperson.correct_name}"
-  p capitalizedtrimmedperson = TrimmerDecorator.new(capitalizedperson)
-  p "capitalizedtrimmedperson.correct_name: #{capitalizedtrimmedperson.correct_name}"
-  p "---- fin person.rb ----------------------"
-end
+# if true
+# Sentences to see the code in action
+p '---- inicio person.rb ----------------------'
+person = Person.new(22, 'maximilianus', true)
+p "correct_name: #{person.correct_name}"
+p "age: #{person.age}"
+p "parent_permission: #{person.parent_permission}"
+capitalizedperson = CapitalizeDecorator.new(person)
+p "capitalizedperson.correct_name: #{capitalizedperson.correct_name}"
+p capitalizedtrimmedperson = TrimmerDecorator.new(capitalizedperson)
+p "capitalizedtrimmedperson.correct_name: #{capitalizedtrimmedperson.correct_name}"
+p '---- fin person.rb ----------------------'
+# end

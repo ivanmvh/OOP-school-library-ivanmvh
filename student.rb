@@ -3,7 +3,7 @@ require './classroom'
 
 class Student < Person
   # getter
-  attr_accessor :classroom # student belongs to classroom
+  attr_reader :classroom # student belongs to classroom
 
   def initialize(*person, classroom)
     super(*person)
