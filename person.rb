@@ -6,8 +6,8 @@ require './rental'
 # Class Person
 class Person < Nameable
   # getters
-  attr_reader :id
-  attr_accessor :name, :age, :parent_permission, :rentals
+  attr_reader :id, :rentals
+  attr_accessor :name, :age, :parent_permission
 
   def initialize(age, name = 'Unknown', parent_permission: true)
     super()
@@ -28,8 +28,8 @@ class Person < Nameable
     @name
   end
 
-  def add_rental(date)
-    @rentals.push(date, self) # a person has many rentals
+  def add_rental(date, book)
+    @rentals.push(Rental.new(date, book, self))
   end
 
   private
