@@ -11,4 +11,3 @@ class Book
     rentals.push(date, self) # a book has many rentals
   end
 end
-

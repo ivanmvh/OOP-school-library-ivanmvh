@@ -7,7 +7,7 @@ class Rental
   def initialize(date, book, person)
     @date = date
     @person = person
-    book.rentals << self # many-to-many intermediate
-    person.rentals << self # many-to-many intermediate
+    book.rentals << self # update pointer from book to rental
+    person.rentals << self # update pointer from person to rental
   end
 end

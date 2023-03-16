@@ -7,7 +7,7 @@ class Classroom
     @label = label
     @students = [] # a classroom has many students
   end
-  
+
   def add_student(student)
     # << is push
     @students << student # add the student to the classroom
@@ -16,9 +16,9 @@ class Classroom
 end
 
 # test
-if 1==0
+if 1 == 0
   p "---- classroom.rb ----------------------"
-  p "Make sure that when adding a student to a classroom" 
+  p "Make sure that when adding a student to a classroom"
   p "it also sets the classroom for the student."
   p 'ivan = Student.new(22, "ivan", false)'
   ivan = Student.new(22, "ivan", false)
@@ -28,12 +28,12 @@ if 1==0
   p "ivan.classroom(al crear student):"
   p ivan.classroom
 
-  pedro = Student.new(55, "pedro","")
+  pedro = Student.new(55, "pedro", "")
   p pedro.name
   p pedro.age
 
   p 'math = Classroom.new("math")'
-  p "math.add_student(ivan)" 
+  p "math.add_student(ivan)"
   math = Classroom.new("math")
   math.add_student(ivan)
   p "ivan.classroom:"
@@ -48,10 +48,10 @@ if 1==0
 
   p 'literature = Classroom.new("literature")'
   literature = Classroom.new("literature")
-  p 'ivan.classroom="literature"' 
+  p 'ivan.classroom="literature"'
   p literature
   p 'ivan.classroom=literature'
-  ivan.classroom=literature
+  ivan.classroom = literature
   p 'ivan'
   p ivan
   p 'literature'
