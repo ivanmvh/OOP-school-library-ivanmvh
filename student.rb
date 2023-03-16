@@ -7,8 +7,12 @@ class Student < Person
 
   def initialize(*person, classroom)
     super(*person)
+    @classroom = classroom
+  end
+
+  def classroom=(classroom)
+    @classroom = classroom
     classroom.students << self unless classroom.students.include?(self) # belongs-to
-    @classroom = classroom.students << self
   end
 
   # method to play_hooky
