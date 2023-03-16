@@ -15,7 +15,6 @@ class Student < Person
     classroom.students << self unless classroom.students.include?(self) # belongs-to
   end
 
-  # method to play_hooky
   def play_hooky
     '¯\(ツ)/¯'
   end

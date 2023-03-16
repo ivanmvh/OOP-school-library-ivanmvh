@@ -2,6 +2,9 @@ require './person'
 
 # Class - Teacher
 class Teacher < Person
+  # getter
+  attr_accessor :specialization
+
   def initialize(*person, specialization)
     super(*person)
     @specialization = specialization
@@ -11,7 +14,5 @@ class Teacher < Person
   def can_use_services?
     true
   end
-
-  # getter
-  attr_accessor :specialization
 end
+
