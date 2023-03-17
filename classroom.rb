@@ -16,7 +16,8 @@ class Classroom
 end
 
 # test
-if 1 == 0
+test_sw = false
+if test_sw
   p '---- classroom.rb ----------------------'
   p 'Make sure that when adding a student to a classroom'
   p 'it also sets the classroom for the student.'

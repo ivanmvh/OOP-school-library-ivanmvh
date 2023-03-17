@@ -40,7 +40,8 @@ class Person < Nameable
 end
 
 # test
-if 1 == 0
+test_sw = false
+if test_sw
   # Sentences to see the code in action
   p '---- inicio person.rb ----------------------'
   person = Person.new(22, 'maximilianus')
