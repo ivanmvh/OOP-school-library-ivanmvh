@@ -124,7 +124,7 @@ class App
     person_index = gets.chomp.to_i
     print 'Date: '
     date = gets.chomp
-    rental = Rental.new(date, @books[book_index], @people[person_index])
+    rental = Rental.new(@books[book_index], @people[person_index], date)
     @rentals << rental unless @rentals.include?(rental)
     puts 'Rental created successfully'
   end
