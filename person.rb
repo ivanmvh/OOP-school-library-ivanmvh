@@ -40,18 +40,18 @@ class Person < Nameable
 end
 
 # test
-if 1==0
-# Sentences to see the code in action
-p '---- inicio person.rb ----------------------'
-person = Person.new(22, 'maximilianus')
-p "correct_name: #{person.correct_name}"
-p "age: #{person.age}"
-p "parent_permission: #{person.parent_permission}"
-person.parent_permission = false
-p "parent_permission: #{person.parent_permission}"
-capitalizedperson = CapitalizeDecorator.new(person)
-p "capitalizedperson.correct_name: #{capitalizedperson.correct_name}"
-p capitalizedtrimmedperson = TrimmerDecorator.new(capitalizedperson)
-p "capitalizedtrimmedperson.correct_name: #{capitalizedtrimmedperson.correct_name}"
-p '---- fin person.rb ----------------------'
+if 1 == 0
+  # Sentences to see the code in action
+  p '---- inicio person.rb ----------------------'
+  person = Person.new(22, 'maximilianus')
+  p "correct_name: #{person.correct_name}"
+  p "age: #{person.age}"
+  p "parent_permission: #{person.parent_permission}"
+  person.parent_permission = false
+  p "parent_permission: #{person.parent_permission}"
+  capitalizedperson = CapitalizeDecorator.new(person)
+  p "capitalizedperson.correct_name: #{capitalizedperson.correct_name}"
+  p capitalizedtrimmedperson = TrimmerDecorator.new(capitalizedperson)
+  p "capitalizedtrimmedperson.correct_name: #{capitalizedtrimmedperson.correct_name}"
+  p '---- fin person.rb ----------------------'
 end
