@@ -43,8 +43,6 @@ class App
         break
       elsif option
         send(option)
-        p "Pulse any key to continue..."
-        option = gets.chomp.to_i
       else
         puts 'That is not a valid input'
       end
@@ -113,16 +111,6 @@ class App
     teacher = Teacher.new(age, specialization, name)
     puts 'Person created successfully'
     @people.push(teacher)
-  end
-
-  def create_book
-    print 'Title: '
-    title = gets.chomp
-    print 'Author: '
-    author = gets.chomp
-    book = Book.new(title, author)
-    puts 'Book created successfully'
-    @books.push(book)
   end
 
   def create_rental
