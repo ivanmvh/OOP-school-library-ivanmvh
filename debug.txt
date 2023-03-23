@@ -1,0 +1,21 @@
+---- rdbg me parecio muy completo respecto a pry ----
+para hacer debug
+$rdbg main.rb
+con rdgb funcionas step, next, continue (s,n,c)
+break linea
+break clase#metodo
+break file#linea
+break ... if ...
+muchas posibilidades
+
+
+--- no veo muchas razones para usar pry --
+Si se quiere usar pry añadir 
+require 'pry'
+binding.pry donde se quiera parar
+
+con pry no funcionas step, next, continue
+Nota: a pry lo veo muy limitado. 
+Dice que es mas un REPL que un Debugger.
+
+by @ivanmvh
